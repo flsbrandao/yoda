@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.903.0",
+    "axios": "^0.21.1",
+    "nodemailer": "^6.6.0",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
