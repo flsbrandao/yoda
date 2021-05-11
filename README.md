@@ -6,7 +6,7 @@ Yoda é um projeto de envio de emails com conselhos do mestre Yoda, usando os se
 
 ## Como funciona? 📜
 
-Através de uma endpoint, o usuário fará um cadastro informando o nome, email e cidade.  Todos os dias, um cronjob executará e enviará os dados do usuário para o SQS. Uma função lambda, irá ler consumir as filas do SQS e enviar os emails. 
+Através de uma endpoint, o usuário fará um cadastro informando o nome, email e cidade.  Todos os dias, um cronjob executará e enviará os dados do usuário para o SQS. Uma função lambda, irá consumir as filas do SQS e enviar os emails. 
 
 #### 📁 service
 Nessa pasta, estão presentes as endpoint's para cadastro e exclusão de usuários. Os dados são persistidos no MongoDB.
